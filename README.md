@@ -12,3 +12,10 @@ First commit: 23 Oct 2014
    type: "git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle" to the terminal.
 
 All the set ups are in the .vimrc file.
+
+**Current Plugins**
+- Vundle
+- scrooloose/nerdtree.git
+- Buffergator
+- mattn/emmet-vim
+- Python-mode-klen
