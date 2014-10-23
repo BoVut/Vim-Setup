@@ -13,7 +13,7 @@ First commit: 23 Oct 2014
    terminal command:
 
         "if [ -e .vimrc ]; then mv .vimrc .vimrc_bak; fi"
-    and "if [ -e .vim ]; then mv .vim .vim_bak; fi"
+        "if [ -e .vim ]; then mv .vim .vim_bak; fi"
 
 3. Install Vundle package management plugin. 
    terminal command: 
