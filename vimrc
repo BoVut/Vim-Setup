@@ -1,3 +1,6 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Vundle Setup
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set nocompatible
 filetype off
 
@@ -22,10 +25,31 @@ Plugin 'mattn/emmet-vim'
 " Python mode (bundle package)
 Plugin 'Python-mode-klen' 
 
-" Now we can turn our filetype functionality back on
-filetype plugin indent on
-
 "Only use emmet with .html files
 let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
+
+"Turn the indent back on
+filetype plugin indent on
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Python Setup
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+au FileType py set autoindent
+au FileType py set smartindent
+au FileType py set textwidth=79 " PEP-8 Friendly
+set ruler
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Colors and Fonts
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Enable syntax highlighting
+syntax enable
+
+colorscheme desert
+set background=dark
+set encoding=utf-8
 
