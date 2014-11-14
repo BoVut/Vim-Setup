@@ -17,6 +17,8 @@ First commit: 23 Oct 2014
 
         "git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle"
 
+4. For setup info go to https://github.com/gmarik/Vundle.vim
+
 All the set ups are in the .vimrc file.
 
 **Current Plugins**
