@@ -22,8 +22,8 @@ Plugin 'Buffergator'
 " Emmet-vim (html+css)
 Plugin 'mattn/emmet-vim'
 
-" Python mode (bundle package)
-Plugin 'Python-mode-klen' 
+" Python plugin
+Plugin 'python.vim' 
 
 "Only use emmet with .html files
 let g:user_emmet_install_global = 0
